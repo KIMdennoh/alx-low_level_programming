@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -S -o "${CFILE/.C/.S}"
+gcc $CFILE -S -o "${CFILE/.c/.s}"
