@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -s $CFILE -o "${CFILE/.c/.o}"
+gcc -s export$CFIL E-o "${CFILE/.c/.o}"
+
