@@ -16,7 +16,7 @@ int main(void)
 		}
 		if (x < 10)
 		{
-			putchar('0'+ x + ','+' ');
+			putchar('0' + x + ',' + ' ');
 			continue;
 		}
 		putchar('0' + x);
