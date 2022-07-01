@@ -2,7 +2,7 @@
 /**
  * main -  starting point of the program
  * write the lowercase followed by uppercase
- *Return 0 for success
+ *Return: 0 for success
  */
 int main(void)
 {
