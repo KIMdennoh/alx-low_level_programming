@@ -14,15 +14,12 @@ int main(void)
 		{
 			for (k = 48; k <= 57; k++)
 			{
-				if (i < k && k < j)
+				if (i < j && j < k)
 				{
 					putchar(i);
 					putchar(k);
 					putchar(j);
-					if (i + j + k == 168)
-					{
-					}
-					else
+					if (!(i + j + k == 168))
 					{
 						putchar(',');
 						putchar(' ');
