@@ -19,7 +19,7 @@ int main(void)
 					putchar(i);
 					putchar(k);
 					putchar(j);
-					if (!(i + j + k) == 168)
+					if (!(i + j + k == 168))
 					{
 						putchar(',');
 						putchar(' ');
