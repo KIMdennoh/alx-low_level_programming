@@ -17,8 +17,8 @@ int main(void)
 				if (i < j && j < k)
 				{
 					putchar(i);
-					putchar(k);
 					putchar(j);
+					putchar(k);
 					if (!(i + j + k == 168))
 					{
 						putchar(',');
