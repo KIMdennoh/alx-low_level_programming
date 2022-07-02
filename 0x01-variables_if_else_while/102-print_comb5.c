@@ -16,7 +16,7 @@ int main(void)
 			{
 				for (y = 48; y <= 57; y++)
 				{
-					if (a >= x && b >= y || a + b == x + y || x < a)
+					if ((a >= x && b >= y) || (a + b == x + y) || (x < a))
 					{
 					}
 					else
