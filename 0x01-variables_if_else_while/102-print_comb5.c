@@ -26,7 +26,7 @@ int main(void)
 						putchar(' ');
 						putchar(x);
 						putchar(y);
-						if (!(a + b + x + y == 227))
+						if (!(a == 57 && b == 56 && x == 57 && y == 57))
 						{
 							putchar(',');
 							putchar(' ');
