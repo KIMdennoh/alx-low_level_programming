@@ -2,53 +2,28 @@
 /**
  * main - entry
  *
- * Return: 0
+ * Reurn: zero
  */
 int main(void)
 {
-	int a;
+	int a, b;
 
-	void add()
+	for (a = 48; a <= 57; a++)
 	{
-		putchar(',');
-		putchar(' ');
-	}
-	int print(int a)
-	{
-		if (a != 0) 
+		for (b = 48; b <= 57; b++)
 		{
-			print(a / 10);
-			putchar((a % 10) + '0');
-		}
-		else
-		{
-			add();
-		}
-	}
-	for (a = 1; a < 10; a++)
-	{
-		putchar('0');
-		putchar('0' + a);
-		if (a == 9)
-		{
-			continue;
-		}
-		else
-		{
-		add();
-		}
-	}
-	for (a = 10; a < 90; a++)
-	{
-		if (a % 11 == 0)
-		{
-			continue;
-		}
-		else
-		{
-			print(a);
+			if (!(a == b || b < a))
+			{
+				putchar(a);
+				putchar(b);
+				if (!(a == 56 && b == 57))
+				{
+					putchar(44);
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
-	return (0);
 }
+
