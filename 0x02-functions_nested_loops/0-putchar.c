@@ -2,7 +2,7 @@
 #include"main.h"
 /**
  * main-entry point
- *
+ * message - printing function
  * Return:zero
  */
 int main(void)
