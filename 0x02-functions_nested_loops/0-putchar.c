@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"main.h"
 /**
  * main-entry point
  *
@@ -9,7 +10,7 @@ int main(void)
 	return (0);
 }
 
-void _putchar(void)
+void message(void)
 {
 	int a, sms[9]={95,112,117,116,99,104,97,114};
 
