@@ -13,9 +13,9 @@ int main(void)
 void message(void)
 {
 	int a;
-	char sms[8]="_putchar";
+	char sms[8]={'_','p','u','t','c','h','a','r'};
 
-	for (a = 0; a < 9; a++)
+	for (a = 0; a < 8; a++)
 	{
 		putchar(sms[a]);
 	}
