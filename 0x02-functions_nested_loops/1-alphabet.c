@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	print_alphabets();
+	print_lowercase();
 	return (0);
 }
