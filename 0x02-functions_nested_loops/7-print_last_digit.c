@@ -1,0 +1,25 @@
+#include"main.h"
+/**
+ * print_last_digit - start your program
+ *@num: the number to check last digit from
+ * Return: alwys zero;
+ */
+int print_last_digit(int num)
+{
+	int l_digit;
+
+	if (num < 0)
+	{
+		l_digit = (-1 * num)%10;
+		_putchar('0' + l_digit);
+	}
+	else if(num == 0)
+	{
+		_putchar(48);
+	}
+	else
+	{
+		l_digit = num % 10;
+	}
+	return (0);
+}
