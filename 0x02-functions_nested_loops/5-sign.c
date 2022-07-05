@@ -2,7 +2,7 @@
 /**
  * print_sign - starting point
  * @n: value with the sign to test
- * Return - depending on the sign
+ * Return: depending on the sign
  */
 int print_sign(int n)
 {
@@ -18,7 +18,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar(0);
+		_putchar(48);
 		return (0);
 	}
 }
