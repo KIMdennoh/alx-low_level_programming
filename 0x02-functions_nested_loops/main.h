@@ -4,15 +4,4 @@
  * Return: void
  */
 void message(void);
-void print_lowercase();
-
-void print_lowercase()
-{
-	char a;
-
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		_putchar(a);
-	}
-	_putchar('\n');
-}
+void print_alphabets(void);
