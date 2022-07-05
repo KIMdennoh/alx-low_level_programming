@@ -12,7 +12,8 @@ int main(void)
 
 void message(void)
 {
-	int a, sms[9]={95,112,117,116,99,104,97,114};
+	int a;
+	char sms[8]="_putchar";
 
 	for (a = 0; a < 9; a++)
 	{
