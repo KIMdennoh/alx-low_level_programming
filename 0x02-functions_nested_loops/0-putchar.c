@@ -13,10 +13,11 @@ int main(void)
 
 void _putchar(void)
 {
-	int a;
+	int a, sms[9]={95,112,117,116,99,104,97,114};
 
 	for (a = 0; a < 9; a++)
 	{
 		putchar(sms[a]);
 	}
+	putchar('\n');
 }
