@@ -3,7 +3,7 @@
  * _isalpha - starting point of this program
  * it functions to test for alphabets
  * @c:containes the value to check
- * Return - 1 or 0
+ * Return: 1 or 0
  */
 int _isalpha(int c)
 {
