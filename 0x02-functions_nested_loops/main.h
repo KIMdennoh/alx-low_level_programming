@@ -4,20 +4,20 @@
  * Return: void
  */
 void message(void);
-void print_alphabets(void);
+void print_alphabet(void);
 
 /**
- * print_alphabets - write in lowercase
+ * print_alphabet - write in lowercase
  *
  * Returns:void data
  */
-void print_alphabets(void)
+void print_alphabet(void)
 {
 	int a;
 
 	for (a = 97; a <= 122; a++)
 	{
-		putchar(a);
+		_putchar(a);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
