@@ -2,7 +2,7 @@
 #include"main.h"
 /**
  * main-entry point
- * message - printing function
+ *
  * Return:zero
  */
 int main(void)
@@ -11,6 +11,10 @@ int main(void)
 	return (0);
 }
 
+/**
+ * message - printing function
+ * Return:void
+ */
 void message(void)
 {
 	int a;
