@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+	message();
 	return (0);
 }
 
