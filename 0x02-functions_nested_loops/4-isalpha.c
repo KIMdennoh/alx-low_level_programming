@@ -1,6 +1,7 @@
 #include"main.h"
 /**
- * _isalpha: starting point
+ * _isalpha: starting point of this program
+ * it functions to test for alphabets
  * @c:containes the value to check
  * Return - 1 or 0
  */
