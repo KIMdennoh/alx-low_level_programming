@@ -1,12 +1,15 @@
-#include<stdio.h>
 #include"main.h"
 /**
- * main-see program
+ * print_alphabes - enntry point
  *
- * Return:alwys 0
+ * Return:void data
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char alph;
+	for (alph = 'a'; alph <= 'z'; alph++)
+	{
+		_putchar(alph);
+	}
+	_putchar('\n');
 }
