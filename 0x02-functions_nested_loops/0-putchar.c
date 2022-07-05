@@ -17,7 +17,7 @@ void message(void)
 
 	for (a = 0; a < 9; a++)
 	{
-		_putchar(sms[a]);
+		putchar(sms[a]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
