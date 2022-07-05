@@ -4,7 +4,7 @@
  *
  * Return:void data
  */
-void print_alphabets(void)
+void print_alphabet(void)
 {
 	char alph;
 	for (alph = 'a'; alph <= 'z'; alph++)
