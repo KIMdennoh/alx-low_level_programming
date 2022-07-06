@@ -28,6 +28,6 @@ int main(void)
 			}
 		}
 	}
-	printf("%lu\n", tt);
+	printf("%lu\n tt);
 	return (0);
 }
