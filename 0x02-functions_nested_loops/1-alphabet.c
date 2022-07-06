@@ -1,16 +1,16 @@
 #include"main.h"
 /**
- * print_alphabet - enntry point
+ * print_alphabet - starting point of the program
  *
- * Return:void data
+ * Return:alwys return zero
  */
 void print_alphabet(void)
 {
-	char alph;
+	char x;
 
-	for (alph = 'a'; alph <= 'z'; alph++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		_putchar(alph);
+		_putchar(x);
 	}
 	_putchar('\n');
 }
