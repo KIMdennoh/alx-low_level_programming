@@ -1,11 +1,11 @@
 #include"main.h"
 #include<stdio.h>
 /**
- * multiples - see the program
+ * naturals - see the program
  *
  * Return: alwys zero
  */
-void multiples(void)
+void naturals(void)
 {
 	int x, sum = 0;
 
