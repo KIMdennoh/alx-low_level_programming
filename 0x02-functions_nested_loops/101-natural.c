@@ -1,11 +1,10 @@
-#include"main.h"
 #include<stdio.h>
 /**
- * naturals - see the program
+ * main - see the program
  *
  * Return: alwys zero
  */
-void naturals(void)
+void main(void)
 {
 	int x, sum = 0;
 
