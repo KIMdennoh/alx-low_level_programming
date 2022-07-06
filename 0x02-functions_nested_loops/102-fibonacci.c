@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	unsigned long long sum = 1, x, y;
+	unsigned long sum = 1, x, y;
 
 	for (i = 0; i < 50; i++)
 	{
@@ -20,7 +20,7 @@ int main(void)
 			y = sum;
 		}
 		sum = x + y;
-		printf("%llu, ", sum);
+		printf("%lu, ", sum);
 	}
 	printf("\n");
 }
