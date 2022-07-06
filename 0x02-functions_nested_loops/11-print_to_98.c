@@ -18,7 +18,7 @@ void print_to_98(int a)
 	else if (a > 98)
 		for (x = a; x >= 98; x--)
 		{
-			_putchar('0' + x)
+			_putchar('0' + x);
 		}
 	else
 	{
