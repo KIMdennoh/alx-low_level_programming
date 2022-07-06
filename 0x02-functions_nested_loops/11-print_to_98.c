@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  * print_to_98 - see the program
- *@n:starting point for printing to 98
+ *@a:starting point for printing to 98
  *return: alwys zero
  */
 void print_to_98(int a)
