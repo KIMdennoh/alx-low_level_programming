@@ -1,7 +1,7 @@
 /**
  * _isupper - check for upper case
- *
- * Retunr:0
+ *@c: the one to test
+ * Return:0
  */
 int _isupper(int c)
 {
