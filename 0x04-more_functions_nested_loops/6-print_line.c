@@ -1,4 +1,4 @@
-#include"main.c"
+#include"main.h"
 /**
  * print_line - see code
  *@n:number of lines
