@@ -18,15 +18,7 @@ void more_numbers(void)
 		{
 			j = y / 10;
 			k = y % 10;
-			if (y < 10)
-			{
-				ten(y);
-			}
-			else
-			{
-				ten(j);
-				_putchar('0' + k)
-			}
+			
 		}
 		_putchar('\n');
 	}
