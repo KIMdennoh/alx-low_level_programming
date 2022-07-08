@@ -1,3 +1,4 @@
+#include"main.h"
 #include<stdio.h>
 /**
  * main - fizz buzz program
@@ -13,17 +14,14 @@ int main(void)
 		if ((x % 3 == 0) && (x % 5 == 0))
 		{
 			printf("FizzBuzz ");
-			continue;
 		}
 		else if (x % 3 == 0)
 		{
 			printf("Fizz ");
-			continue;
 		}
 		else if (x % 5 == 0)
 		{
 			printf("Buzz ");
-			continue;
 		}
 		else
 		{
