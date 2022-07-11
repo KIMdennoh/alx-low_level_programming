@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * print_array - print numbers in the array
  * @a: pointer to array
