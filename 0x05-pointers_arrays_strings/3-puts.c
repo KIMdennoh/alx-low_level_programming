@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * void _puts(char *str);
+ * void _puts - see program
  * @str: pointer to the string
  * Return: 0
  */
