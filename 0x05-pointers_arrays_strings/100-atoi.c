@@ -21,7 +21,7 @@ int _atoi(char *s)
 
 	sign = 1;
 	num = 0;
-	for(i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (is_numerical(s[i]))
 		{
@@ -34,5 +34,5 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	return (num *sign);
+	return (num * sign);
 }
