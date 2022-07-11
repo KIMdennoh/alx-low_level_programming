@@ -6,7 +6,7 @@
  */
 int is_numerical(unsigned int n)
 {
-	return (n >= '0' && n <= '9')
+	return (n >= '0' && n <= '9');
 }
 /**
  * _atoi - converting to int
@@ -34,5 +34,5 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	return (number *sign);
+	return (num *sign);
 }
