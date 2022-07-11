@@ -14,7 +14,7 @@ int main(void)
 	srand(time(NULL));
 	for (i = 0; i < 100; i++)
 	{
-		pas[i] = rad() % 78;
+		pas[i] = rand() % 78;
 		sum += (pas[i] + '0');
 		putchar(pas[i] + '0');
 		if ((2772 - sum) - '0' < 78)
