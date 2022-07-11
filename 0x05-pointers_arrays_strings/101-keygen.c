@@ -11,7 +11,7 @@ int main(void)
 {
 	int i, j, sum = 0,pas[100];
 
-	strand(time(NULL));
+	srand(time(NULL));
 	for (i = 0; i < 100; i++)
 	{
 		pas[i] = rad() % 78;
