@@ -3,7 +3,7 @@
  * _strncpy - words
  * @dest:pointer
  * @src:pointer
- * @n:int 
+ * @n:int
  * Return:string
  */
 char *_strncpy(char *dest, char *src, int n)
