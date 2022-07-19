@@ -1,9 +1,7 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _strpbrk - return pointer to byte in s that
- * matches a byte in accept
- *
+ * _strpbrk - return pointer to byte 
  * @s: string to search
  * @accept: target matches
  * Return: pointer to index of string at first occurence
@@ -11,20 +9,18 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i = 0, j;
+	int i;
 
-	while (s[i] != '\0')
+	while (*s)
 	{
-
-		for (j = 0; accept[j] != '\0'; j++)
+		for (i = 0; accept[i]; i++)
 		{
-			if (s[i] == accept[j])
+			if (*s == accept[i])
 			{
-				s = &s[i];
 				return (s);
 			}
 		}
-		i++;
+		s++;
 	}
 
 	return (NULL);
