@@ -1,4 +1,4 @@
-#inculde"main.h"
+#include"main.h"
 /**
  * _memcpy - copies memory
  * @dest: final
