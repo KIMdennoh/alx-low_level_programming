@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk - return pointer to byte 
+ * _strpbrk - return pointer to byte
  * @s: string to search
  * @accept: target matches
  * Return: pointer to index of string at first occurence
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
@@ -22,6 +21,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-
 	return (NULL);
 }
