@@ -6,7 +6,6 @@
  * @size: of array
  * Return: zero
  */
-
 void print_diagsums(int *a, int size)
 {
 	int sum_1 = 0;
@@ -23,5 +22,5 @@ void print_diagsums(int *a, int size)
 		x = (i * size) - i;
 		sum_2 += a[x];
 	}
-	printf ("%d, %d\n", sum_1, sum_2);
+	printf("%d, %d\n", sum_1, sum_2);
 }
