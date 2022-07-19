@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * _memset - fill bite 
+ * _memset - fill bite
  * @s:string
  * @b:filler
  * @n:size
