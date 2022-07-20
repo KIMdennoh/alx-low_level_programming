@@ -1,9 +1,10 @@
-#include"main.h"
+#include"main.c"
 /**
  * factorial - prints factorials of a number
- * @n:number of factorials
- * Return: success ? fact:-1(error)
+ * @n: the final number
+ * Return: recusion or -1 for error
  */
+
 int factorial(int n)
 {
 	if (n < 0)
@@ -14,5 +15,5 @@ int factorial(int n)
 	{
 		return (n);
 	}
-	return (n * factorial(n - 1));
+	return (n * (factorial(n - 1));
 }
