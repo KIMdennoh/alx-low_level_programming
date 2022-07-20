@@ -15,11 +15,10 @@ int is_prime_number(int n)
 		return (div(3, n));
 	}
 }
-
 /**
  * div - divide to see if its a prime number
  * @n:integer
- * @m:int 
+ * @m:integer
  * Return:true or false
  */
 int div(int n, int m)
