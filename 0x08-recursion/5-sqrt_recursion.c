@@ -12,6 +12,7 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - return the natural sqrt
  * @n: number to find sqrt
+ * @x: thr sqrt
  * Return: sqrt
  */
 int _sqrt(int n, int x)
