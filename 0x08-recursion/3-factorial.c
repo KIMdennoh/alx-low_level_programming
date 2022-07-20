@@ -1,4 +1,4 @@
-#include"main.c"
+#include"main.h"
 /**
  * factorial - prints factorials of a number
  * @n: the final number
@@ -15,5 +15,5 @@ int factorial(int n)
 	{
 		return (n);
 	}
-	return (n * (factorial(n - 1));
+	return (n * (factorial(n - 1)));
 }
