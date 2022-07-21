@@ -2,7 +2,7 @@
 /**
  * is_prime_number - checks if the number input is prime number
  * @n:test number
- * Return : prime number? 1: 0
+ * Return: prime number? 1: 0
  */
 int is_prime_number(int n)
 {
